@@ -5,14 +5,14 @@
         android:color="@color/light_purple">
     </solid>
     <stroke
-        android:width="0dp"
+        android:width="2dp"
         android:color="@color/dark_purple"
         >
     </stroke>
     <corners
-        android:topLeftRadius="24dp"
-        android:topRightRadius="24dp"
-        android:bottomLeftRadius="24dp"
-        android:bottomRightRadius="24dp">
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
+        android:bottomLeftRadius="12dp"
+        android:bottomRightRadius="12dp">
     </corners>
 </shape>

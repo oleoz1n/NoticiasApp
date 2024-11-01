@@ -11,4 +11,6 @@
     <string name="titulo">Título</string>
     <string name="descricao">Descrição</string>
     <string name="tema">Tema</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="buscar">Buscar</string>
 </resources>

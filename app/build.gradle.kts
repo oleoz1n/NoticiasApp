@@ -47,7 +47,7 @@ dependencies {
     implementation("com.google.firebase:firebase-auth")
 
     //db
-    implementation("com.google.firebase:firebase-storage")
+    implementation("com.google.firebase:firebase-firestore")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

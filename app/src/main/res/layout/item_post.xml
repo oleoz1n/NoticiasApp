@@ -2,10 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp">
 
 
     <LinearLayout
+        android:id="@+id/itemContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_edge"
@@ -22,7 +24,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="2"
-            android:text="Hoje Ocorre um acidente na rua ahsdioahowdhjo aodhjoawjhodhj aowhdoahjwdaohjd oawhjdojaowdja ioduhanowdo dasdadwdasd dawdasdawda sdwad" />
+            android:text="" />
 
         <Space
             android:layout_width="match_parent"
@@ -38,14 +40,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="2020-12-12" />
+                android:text="" />
 
             <TextView
                 android:id="@+id/tema"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Esportes"
+                android:text=""
                 android:textAlignment="viewEnd" />
 
         </LinearLayout>
@@ -61,7 +63,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="Autor: leo@email.com" />
+            android:text="" />
 
     </LinearLayout>
 
