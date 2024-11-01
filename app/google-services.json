@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "855156353728",
+    "project_id": "noticiasapp-5dd1f",
+    "storage_bucket": "noticiasapp-5dd1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855156353728:android:63a340b166a0fa6a1fdb25",
+        "android_client_info": {
+          "package_name": "br.com.fiap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4K42uRw7aAs_iOyOlJDb-_a6nVJ2ekUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
