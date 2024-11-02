@@ -24,7 +24,7 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.login)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -58,9 +58,6 @@ class LoginActivity : AppCompatActivity() {
         val fragment = LogarFragment(auth)
         supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView, fragment).commit()
     }
-
-    var resposta = ""
-
 
     private fun hideButtons(){
         if (loginView){
