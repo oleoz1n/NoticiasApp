@@ -40,7 +40,8 @@
                     android:layout_weight="0"
                     android:background="@android:color/transparent"
                     android:text="@string/login"
-                    android:textColor="@color/link" />
+                    android:textColor="@color/text_primary"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/btnCadastro"
@@ -49,7 +50,8 @@
                     android:layout_weight="0"
                     android:background="@android:color/transparent"
                     android:text="@string/cadastro"
-                    android:textColor="@color/link" />
+                    android:textColor="@color/text_primary"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <androidx.fragment.app.FragmentContainerView

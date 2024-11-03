@@ -80,7 +80,7 @@ class PostAdd : AppCompatActivity() {
         val btnEnviar = binding.btnEnviar
 
         btnEnviar.setOnClickListener {
-            if(txtTitulo.text.isEmpty() || txtDesc.text.isEmpty()){
+            if(txtTitulo.text!!.isEmpty() || txtDesc.text!!.isEmpty()){
                 textResposta.text = "Preencha todos os campos"
                 textResposta.visibility = View.VISIBLE
                 return@setOnClickListener
@@ -102,8 +102,8 @@ class PostAdd : AppCompatActivity() {
             .add(post)
             .addOnSuccessListener {
                 textResposta.setTextColor(rgb(0,255,0))
-                txtTitulo.text.clear()
-                txtDesc.text.clear()
+                txtTitulo.text!!.clear()
+                txtDesc.text!!.clear()
                 binding.btnEnviar.postDelayed({
                     finish()
                 }, 1000)

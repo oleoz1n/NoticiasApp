@@ -3,9 +3,24 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="link">#FF0000FF</color>
-    <color name="error">#FFFF0000</color>
     <color name="light_purple">#FFD1C4E9</color>
     <color name="purple">#FF9C27B0</color>
     <color name="dark_purple">#FF512DA8</color>
     <color name="logout_background">#E28B8B</color>
+
+    <color name="primary">#2D3250</color>
+    <color name="primary_dark">#1B1F33</color>
+    <color name="primary_light">#424869</color>
+
+    <color name="accent">#F2D8D8</color>
+    <color name="accent_dark">#D9B6B6</color>
+
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F5F5F5</color>
+    <color name="error">#B64D4D</color>
+
+    <color name="text_primary">#2D3250</color>
+    <color name="text_secondary">#666B85</color>
+    <color name="text_tertiary">#9499B1</color>
+    <color name="text_on_primary">#FFFFFF</color>
 </resources>
